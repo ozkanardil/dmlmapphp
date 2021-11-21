@@ -1,0 +1,104 @@
+[
+	{
+		"featureType": "landscape",
+		"stylers": [
+			{
+				"hue": "#27FF00"
+			},
+			{
+				"saturation": 25
+			},
+			{
+				"lightness": -17.200000000000017
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.highway",
+		"stylers": [
+			{
+				"hue": "#000BFF"
+			},
+			{
+				"saturation": -93
+			},
+			{
+				"lightness": -66.6
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.arterial",
+		"stylers": [
+			{
+				"hue": "#0038FF"
+			},
+			{
+				"saturation": -100
+			},
+			{
+				"lightness": -38.19999999999999
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.local",
+		"stylers": [
+			{
+				"hue": "#0400FF"
+			},
+			{
+				"saturation": -100
+			},
+			{
+				"lightness": 11.000000000000014
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "water",
+		"stylers": [
+			{
+				"hue": "#0032FF"
+			},
+			{
+				"saturation": 93.79999999999998
+			},
+			{
+				"lightness": -46.8
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "poi",
+		"stylers": [
+			{
+				"hue": "#FFFC00"
+			},
+			{
+				"saturation": 0
+			},
+			{
+				"lightness": 0
+			},
+			{
+				"gamma": 1
+			}
+		]
+	}
+]
