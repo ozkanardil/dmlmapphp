@@ -1,0 +1,754 @@
+@font-face {
+	font-family: 'map-icons';
+	src:url('../fonts/map-icons.eot');
+	src:url('../fonts/map-icons.eot#iefix') format('embedded-opentype'),
+		url('../fonts/map-icons.ttf') format('truetype'),
+		url('../fonts/map-icons.woff') format('woff'),
+		url('../fonts/map-icons.svg#map-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.map-icon-label .map-icon {
+	display: block;
+	font-size: 24px;
+	color: #FFFFFF;
+	width: 48px;
+	line-height: 48px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.map-icon {
+	font-family: 'map-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dmlMarkerIconsList {
+  margin: 12px 12px 0px 0px; 
+  border: solid 2px white;
+  float:left;
+}
+.dmlMarkerContainersList {
+  margin: 2px; 
+  border: solid 2px white;
+  float:left;
+}
+
+.i201:before {
+	content: "\e800";
+}
+
+.i202:before {
+	content: "\e801";
+}
+
+.i203:before {
+	content: "\e802";
+}
+
+.i204:before {
+	content: "\e803";
+}
+/*
+.i204 {
+  	width: 48px;
+	height: 48px;
+	background: url(../icons/205.svg) no-repeat center;
+	background-size: 26px 26px;	
+	background-color: red;
+}
+*/
+
+.i205:before {
+	content: "\e804";
+}
+
+.i206:before {
+	content: "\e805";
+}
+
+.i207:before {
+	content: "\e806";
+}
+
+.i208:before {
+	content: "\e807";
+}
+
+.i209:before {
+	content: "\e808";
+}
+
+.i210:before {
+	content: "\e809";
+}
+
+.i211:before {
+	content: "\e80a";
+}
+
+.i212:before {
+	content: "\e80b";
+}
+
+.i213:before {
+	content: "\e80c";
+}
+
+.i214:before {
+	content: "\e80d";
+}
+
+.i215:before {
+	content: "\e80e";
+}
+
+.i216:before {
+	content: "\e80f";
+}
+
+.i217:before {
+	content: "\e810";
+}
+
+.i218:before {
+	content: "\e811";
+}
+
+.i219:before {
+	content: "\e812";
+}
+
+.i220:before {
+	content: "\e813";
+}
+
+.i221:before {
+	content: "\e814";
+}
+
+.i222:before {
+	content: "\e815";
+}
+
+.i223:before {
+	content: "\e816";
+}
+
+.i224:before {
+	content: "\e817";
+}
+
+.i225:before {
+	content: "\e818";
+}
+
+.i226:before {
+	content: "\e819";
+}
+
+.i227:before {
+	content: "\e81a";
+}
+
+.i228:before {
+	content: "\e81b";
+}
+
+.i229:before {
+	content: "\e81c";
+}
+
+.i230:before {
+	content: "\e81d";
+}
+
+.i231:before {
+	content: "\e81e";
+}
+
+.i232:before {
+	content: "\e81f";
+}
+
+.i233:before {
+	content: "\e820";
+}
+
+.i234:before {
+	content: "\e821";
+}
+
+.i235:before {
+	content: "\e822";
+}
+
+.i236:before {
+	content: "\e823";
+}
+
+.i237:before {
+	content: "\e824";
+}
+
+.i238:before {
+	content: "\e825";
+}
+
+.i239:before {
+	content: "\e826";
+}
+
+.i240:before {
+	content: "\e827";
+}
+
+.i241:before {
+	content: "\e828";
+}
+
+.i242:before {
+	content: "\e829";
+}
+
+.i243:before {
+	content: "\e82a";
+}
+
+.i244:before {
+	content: "\e82b";
+}
+
+.i245:before {
+	content: "\e82c";
+}
+
+.i246:before {
+	content: "\e82d";
+}
+
+.i247:before {
+	content: "\e82e";
+}
+
+.i248:before {
+	content: "\e82f";
+}
+
+.i249:before {
+	content: "\e830";
+}
+
+.i250:before {
+	content: "\e831";
+}
+
+.i251:before {
+	content: "\e832";
+}
+
+.i252:before {
+	content: "\e833";
+}
+
+.i253:before {
+	content: "\e834";
+}
+
+.i254:before {
+	content: "\e835";
+}
+
+.i255:before {
+	content: "\e836";
+}
+
+.i256:before {
+	content: "\e837";
+}
+
+.i257:before {
+	content: "\e838";
+}
+
+.i258:before {
+	content: "\e839";
+}
+
+.i259:before {
+	content: "\e83a";
+}
+
+.i260:before {
+	content: "\e83b";
+}
+
+.i261:before {
+	content: "\e83c";
+}
+
+.i262:before {
+	content: "\e83d";
+}
+
+.i263:before {
+	content: "\e83e";
+}
+
+.i264:before {
+	content: "\e83f";
+}
+
+.i265:before {
+	content: "\e840";
+}
+
+.i266:before {
+	content: "\e841";
+}
+
+.i267:before {
+	content: "\e842";
+}
+
+.i268:before {
+	content: "\e843";
+}
+
+.i269:before {
+	content: "\e844";
+}
+
+.i270:before {
+	content: "\e845";
+}
+
+.i271:before {
+	content: "\e846";
+}
+
+.i272:before {
+	content: "\e847";
+}
+
+.i273:before {
+	content: "\e848";
+}
+
+.i274:before {
+	content: "\e849";
+}
+
+.i275:before {
+	content: "\e84a";
+}
+
+.i276:before {
+	content: "\e84b";
+}
+
+.i277:before {
+	content: "\e84c";
+}
+
+.i278:before {
+	content: "\e84d";
+}
+
+.i279:before {
+	content: "\e84e";
+}
+
+.i280:before {
+	content: "\e84f";
+}
+
+.i281:before {
+	content: "\e850";
+}
+
+.i282:before {
+	content: "\e851";
+}
+
+.i283:before {
+	content: "\e852";
+}
+
+.i284:before {
+	content: "\e853";
+}
+
+.i285:before {
+	content: "\e854";
+}
+
+.i286:before {
+	content: "\e855";
+}
+
+.i287:before {
+	content: "\e856";
+}
+
+.i288:before {
+	content: "\e857";
+}
+
+.i289:before {
+	content: "\e858";
+}
+
+.i290:before {
+	content: "\e859";
+}
+
+.i291:before {
+	content: "\e85a";
+}
+
+.i292:before {
+	content: "\e85b";
+}
+
+.i293:before {
+	content: "\e85c";
+}
+
+.i294:before {
+	content: "\e85d";
+}
+
+.i295:before {
+	content: "\e85e";
+}
+
+.i296:before {
+	content: "\e85f";
+}
+
+.i297:before {
+	content: "\e860";
+}
+
+.i298:before {
+	content: "\e861";
+}
+
+.i299:before {
+	content: "\e862";
+}
+
+.i300:before {
+	content: "\e863";
+}
+
+.i301:before {
+	content: "\e864";
+}
+
+.i302:before {
+	content: "\e865";
+}
+
+.i303:before {
+	content: "\e866";
+}
+
+.i304:before {
+	content: "\e867";
+}
+
+.i305:before {
+	content: "\e868";
+}
+
+.i306:before {
+	content: "\e869";
+}
+
+.i307:before {
+	content: "\e86a";
+}
+
+.i308:before {
+	content: "\e86b";
+}
+
+.i309:before {
+	content: "\e86c";
+}
+
+.i310:before {
+	content: "\e86d";
+}
+
+.i311:before {
+	content: "\e86e";
+}
+
+.i312:before {
+	content: "\e86f";
+}
+
+.i313:before {
+	content: "\e870";
+}
+
+.i314:before {
+	content: "\e871";
+}
+
+.i315:before {
+	content: "\e872";
+}
+
+.i316:before {
+	content: "\e873";
+}
+
+.i317:before {
+	content: "\e874";
+}
+
+.i318:before {
+	content: "\e875";
+}
+
+.i319:before {
+	content: "\e876";
+}
+
+.i320:before {
+	content: "\e877";
+}
+
+.i321:before {
+	content: "\e878";
+}
+
+.i322:before {
+	content: "\e879";
+}
+
+.i323:before {
+	content: "\e87a";
+}
+
+.i324:before {
+	content: "\e87b";
+}
+
+.i325:before {
+	content: "\e87c";
+}
+
+.i326:before {
+	content: "\e87d";
+}
+
+.i327:before {
+	content: "\e87e";
+}
+
+.i328:before {
+	content: "\e87f";
+}
+
+.i329:before {
+	content: "\e880";
+}
+
+.i330:before {
+	content: "\e881";
+}
+
+.i331:before {
+	content: "\e882";
+}
+
+.i332:before {
+	content: "\e883";
+}
+
+.i333:before {
+	content: "\e884";
+}
+
+.i334:before {
+	content: "\e885";
+}
+
+.i335:before {
+	content: "\e886";
+}
+
+.i336:before {
+	content: "\e887";
+}
+
+.i337:before {
+	content: "\e888";
+}
+
+.i338:before {
+	content: "\e889";
+}
+
+.i339:before {
+	content: "\e88a";
+}
+
+.i340:before {
+	content: "\e88b";
+}
+
+.i341:before {
+	content: "\e88c";
+}
+
+.i342:before {
+	content: "\e88d";
+}
+
+.i343:before {
+	content: "\e88e";
+}
+
+.i344:before {
+	content: "\e88f";
+}
+
+.i345:before {
+	content: "\e890";
+}
+
+.i346:before {
+	content: "\e891";
+}
+
+.i347:before {
+	content: "\e892";
+}
+
+.i348:before {
+	content: "\e893";
+}
+
+.i349:before {
+	content: "\e894";
+}
+
+.i350:before {
+	content: "\e895";
+}
+
+.i351:before {
+	content: "\e896";
+}
+
+.i352:before {
+	content: "\e897";
+}
+
+.i353:before {
+	content: "\e898";
+}
+
+.i354:before {
+	content: "\e899";
+}
+
+.i355:before {
+	content: "\e89a";
+}
+
+.i356:before {
+	content: "\e89b";
+}
+
+.i357:before {
+	content: "\e89c";
+}
+
+.i358:before {
+	content: "\e89d";
+}
+
+.i359:before {
+	content: "\e89e";
+}
+
+.i360:before {
+	content: "\e89f";
+}
+
+.i361:before {
+	content: "\e8a0";
+}
+
+.i362:before {
+	content: "\e8a1";
+}
+
+.i363:before {
+	content: "\e8a2";
+}
+
+.i364:before {
+	content: "\e8a3";
+}
+
+.i365:before {
+	content: "\e8a4";
+}
+
+.i366:before {
+	content: "\e8a5";
+}
+
+.i367:before {
+	content: "\e8a6";
+}
+
+.i368:before {
+	content: "\e8a7";
+}
+
+.i369:before {
+	content: "\e8a8";
+}
+
+.i370:before {
+	content: "\e8a9";
+}
+
+.i371:before {
+	content: "\e8aa";
+}
+
+.i372:before {
+	content: "\e8ab";
+}
+
+.i373:before {
+	content: "\e8ac";
+}
+
+.i374:before {
+	content: "\e8ad";
+}
+
+.i375:before {
+	content: "\e8ae";
+}
